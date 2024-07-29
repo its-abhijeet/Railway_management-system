@@ -1,0 +1,60 @@
+=================FRONTEND======================
+railway-management-system-frontend/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── Auth/
+│   │   │   ├── Login.js
+│   │   │   └── Register.js
+│   │   ├── Train/
+│   │   │   ├── TrainList.js
+│   │   │   └── TrainItem.js
+│   │   ├── Booking/
+│   │   │   ├── BookingForm.js
+│   │   │   └── BookingDetails.js
+│   │   └── Layout/
+│   │       ├── Header.js
+│   │       └── Footer.js
+│   ├── contexts/
+│   │   └── AuthContext.js
+│   ├── services/
+│   │   ├── api.js
+│   │   ├── authService.js
+│   │   ├── trainService.js
+│   │   └── bookingService.js
+│   ├── utils/
+│   │   └── formatDate.js
+│   ├── App.js
+│   └── index.js
+├── .env
+└── package.json
+=================FRONTEND======================
+=================BACKEND=======================
+railway-management-system-backend/
+├── src/
+│   ├── config/
+│   │   └── database.js
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   ├── trainController.js
+│   │   └── bookingController.js
+│   ├── middleware/
+│   │   ├── adminMiddleware.js
+│   │   └── userMiddleware.js
+│   ├── models/
+│   │   ├── User.js
+│   │   ├── Train.js
+│   │   └── Booking.js
+│   ├── routes/
+│   │   ├── authRoutes.js
+│   │   ├── trainRoutes.js
+│   │   └── bookingRoutes.js
+│   ├── utils/
+│   │   └── asyncHandler.js
+│   └── app.js
+├── .env
+├── package.json
+└── server.js
+=================BACKEND=======================
+
